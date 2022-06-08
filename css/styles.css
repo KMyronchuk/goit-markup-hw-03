@@ -62,15 +62,14 @@ header {border-bottom: 1px solid #ECECEC;}
     display: block;
     padding-bottom: 32px;
     padding-top: 32px;
-    
     color: var(--title-text-color)
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+    }
 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
- }
 
  .site-nav .link:hover, 
  .site-nav .link:focus {color: var(--accent-color);}
